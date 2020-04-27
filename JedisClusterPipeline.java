@@ -1,4 +1,4 @@
-package yan.rui.jedis.cluster.ext;
+package jedis.cluster.ext;
 
 import redis.clients.jedis.*;
 import redis.clients.util.JedisClusterCRC16;
@@ -9,7 +9,7 @@ import java.util.*;
 /**
  * @Author: yan.rui
  * @Date: 2019/7/10
- * @Description: TODO
+ * @Description: 实现jedis cluster 的 pipeline 操作
  **/
 public class JedisClusterPipeline {
     private Map<String, JedisPool> nodeMap;
