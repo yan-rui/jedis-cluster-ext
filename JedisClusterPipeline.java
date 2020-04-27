@@ -118,7 +118,7 @@ public class JedisClusterPipeline {
     public static void main (String[] args){
         // 初始化jediscluster
         Set<HostAndPort> nodes = new HashSet<HostAndPort>();
-        nodes.add(new HostAndPort("172.17.5.110", 6379));
+        nodes.add(new HostAndPort("127.0.0.1", 6379));
         JedisCluster jedisCluster = new JedisCluster(nodes);
 
         // 初始化 pipeline
