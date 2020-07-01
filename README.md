@@ -1,5 +1,5 @@
 # jedis-cluster-ext
-Extention of jedis cluster, for batch pipeline. 
+Extention of jedis cluster, for batch operation. 
 
 # usage
 
